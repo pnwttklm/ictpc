@@ -32,13 +32,15 @@ export default function RootLayout({
         <div className="min-h-screen relative">
           <Bar />
           {pathname !== "/" && (
-            <div className="flex items-center w-full justify-between p-1 bg-white">
+            <div className="flex items-center w-full justify-between p-1 bg-gray-100 border-b border-gray-200 shadow-md">
               <div></div>
               <h1 className="text-md font-bold text-gray-700"></h1>
               <div className="flex items-center text-gray-500 space-x-3">
-                <h1 className="text-md font-bold bg-gray-200 p-1 -rotate-90 rounded-full">
-                  <Tally1 size={16} />
-                </h1>
+                <Link href="/">
+                  <h1 className="text-md font-bold bg-gray-200 p-1 -rotate-90 rounded-full">
+                    <Tally1 size={16} />
+                  </h1>
+                </Link>
                 <h1 className="text-md font-bold bg-gray-200 p-1 rounded-full">
                   <Square size={16} />
                 </h1>
