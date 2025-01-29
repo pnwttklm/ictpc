@@ -61,7 +61,7 @@ export default function Page() {
             <CardTitle className="mb-8">{title}</CardTitle>
             <CardDescription className="text-lg"></CardDescription>
           </CardHeader>
-          <CardContent className="lg:mx-6 space-y-2 overflow-scroll h-96">
+          <CardContent className="lg:mx-6 space-y-2 overflow-scroll h-72 lg:h-96">
             {children}
           </CardContent>
           <CardFooter className="lg:invisible flex justify-between">
@@ -183,7 +183,7 @@ export default function Page() {
 *   Teams are **strictly prohibited** from using or attempting to use the Internet during the competition.
     
 
-7.  **Competition Day Rules (Jan 15)**:
+7.  **Competition Day Rules (Feb 12)**:
     
 
 *   Only **empty-handed entry** into the competition room is allowed.`}</ReactMarkdown>
