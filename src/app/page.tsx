@@ -54,7 +54,7 @@ export default function Home() {
           <p className="font-bold">Register Date:</p> Today - Jan 31
         </h2>
         <h2 className="text-md flex flex-row gap-3">
-          max of 3 per team | Feb 10 and 15 | IT210
+          max of 3 per team | Feb 12 and 15 | IT210
         </h2>
         {/* <h2 className="text-md flex flex-row gap-3">
           <p className="font-bold">Competition Session:</p> Sat Feb 15 13:00
