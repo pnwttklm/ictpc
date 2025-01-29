@@ -22,8 +22,8 @@ export default function Nav() {
     return `${month} ${date} ${hours}:${minutes}`;
   }
   return (
-    <header className="flex items-center justify-between w-full p-1 bg-[#070419]  shadow-md">
-      <div></div>
+    <header className="flex items-center justify-between w-full p-1 bg-[#070419] shadow-md">
+      <div className="ml-16"></div>
       <h1 className="text-md font-medium text-white">{dateTime}</h1>
       <div className="flex items-center text-white space-x-3">
         <Network size={16} />

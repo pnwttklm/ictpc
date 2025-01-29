@@ -53,7 +53,7 @@ export default function RootLayout({
             </div>
           )}
           {children}
-          <footer className="absolute bottom-32 ml-2 lg:ml-32 items-center w-full lg:bottom-2 text-xs text-gray-500">
+          <footer className="invisible lg:visible absolute bottom-32 ml-2 lg:ml-32 items-center w-full lg:bottom-2 text-xs text-gray-500">
             <p>
               Copyright © 2025. Dev Club, in association with Faculty of
               Information and Communication Technology, Mahidol University. All
