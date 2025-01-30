@@ -14,7 +14,7 @@ export interface ScheduleSession {
   export const scheduleData: ScheduleData[] = [
     {
       title: "Practice Session",
-      date: "Wed, Feb 12, 2025",
+      date: "Sun, Feb 9, 2025",
       sessions: [
         {
           time: "12:00 - 13:00",
@@ -50,7 +50,7 @@ export interface ScheduleSession {
     },
     {
       title: "Competition Session",
-      date: "Sun, Feb 16, 2025",
+      date: "Wed, Feb 12, 2025",
       sessions: [
         {
           time: "12:00 - 13:00",
