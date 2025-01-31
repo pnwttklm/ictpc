@@ -14,7 +14,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-[#19B3C5] via-[#070419] to-[#070419] flex flex-col items-center text-white relative">
       {/* App Icons */}
       <main className="flex flex-wrap justify-center items-center max-w-5xl">
-        <AppIcon name="Register" href="/regis" icon={<span>📝</span>} />
+        {/* <AppIcon name="Register" href="/regis" icon={<span>📝</span>} /> */}
         <AppIcon name="About" href="/about" icon={<span>ℹ️</span>} />
         <AppIcon name="Rules" href="/contest" icon={<span>🖥️</span>} />
         {/* <AppIcon name="Score" href="/leaderboard" icon={<span>📊</span>} /> */}
@@ -50,9 +50,9 @@ export default function Home() {
           alt="logo"
           className="w-9/12 lg:w-3/12"
         ></Image>
-        <h2 className="text-md flex flex-row gap-3">
+        {/* <h2 className="text-md flex flex-row gap-3">
           <p className="font-bold">Register Date:</p> Today - Jan 31
-        </h2>
+        </h2> */}
         <h2 className="text-md flex flex-row gap-3">
           max of 3 per team | Feb 9 and 12
         </h2>
