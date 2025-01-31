@@ -24,7 +24,7 @@ export default function Page() {
     "inquiries",
     "hardware",
     "software",
-    "award",
+    "award"
   ]; // Your string list
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -102,7 +102,7 @@ export default function Page() {
         <EachTab value={values[0]} title={"Team Requirements"}>
           Each team must consist of <b>1 to 3 individuals</b> from any program
           or year. Participants must be enrolled in the{" "}
-          <b>B.Sc. in ICTor B.Sc. in DST</b>
+          <b>B.Sc. in ICT or B.Sc. in DST</b>
           programs. <br />
           <br />
           Teams that do not meet this requirement will be disqualified from
@@ -138,7 +138,7 @@ export default function Page() {
     
 *   The material must be contained in a **notebook, binder, envelope, or folder** labeled with the institution and team name on the front.
     
-*   All materials must be submitted before the **competition session on January 15th**, starting from **1PM** at the provided place.
+*   All materials must be submitted before the **competition session on February 12th**, starting from **1PM** at the provided place.
     
 
 2.  **Allowed Stationery and Items**:
