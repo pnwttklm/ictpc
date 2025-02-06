@@ -150,7 +150,7 @@ export default function Page() {
     
 *   Candy is the only food allowed. **Still drinks** are the only drinks permitted.
     
-*   There will be snacks and drinks provided once during the contest.
+*   There will be snacks and drinks provided after the contest.
     
 *   Teams are allowed to bring **mascot dolls, Yadom (inhalers), Calculator (teams may use OS built-in calculator), or one English-to-\[Language\] dictionary**. However, all items, including notebooks, stationery, candy, mascot dolls, etc., will be **inspected before the competition session and placed in the team’s designated workstation** before the competition.
     
