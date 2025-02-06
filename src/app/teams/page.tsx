@@ -2,7 +2,7 @@ import Search from "@/components/Search";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ICTPC | 44 Teams",
+  title: "ICTPC | 47 Teams",
   description: "Search for teams",
 };
 
@@ -202,7 +202,7 @@ const data = [
 export default function Home() {
   return (
     <main className="flex flex-col items-center bg-gray-100 min-h-screen p-4">
-      <h1 className="text-2xl font-bold mb-6">44 Teams</h1>
+      <h1 className="text-2xl font-bold mb-6">47 Teams</h1>
       <Search data={data} />
     </main>
   );
