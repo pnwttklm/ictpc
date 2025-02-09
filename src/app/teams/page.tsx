@@ -169,10 +169,6 @@ const data = [
     id: [6788030, 6788121, 6788111],
   },
   {
-    team: "อุอิอิอา",
-    id: [6788026],
-  },
-  {
     team: "Bunnybell",
     id: [6788246],
   },
@@ -196,7 +192,10 @@ const data = [
     team: "nah I’m cooked",
     id: [6788090,6788125,6788077],
   },
-
+  {
+    team: "Hello!",
+    id: [6788221],
+  },
 ];
 
 export default function Home() {
