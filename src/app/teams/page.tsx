@@ -192,7 +192,10 @@ const data = [
     team: "nah I’m cooked",
     id: [6788090,6788125,6788077],
   },
-
+  {
+    team: "Hello!",
+    id: [6788221],
+  },
 ];
 
 export default function Home() {
