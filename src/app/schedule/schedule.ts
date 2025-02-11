@@ -49,7 +49,7 @@ export interface ScheduleSession {
         {
           time: "10:00 - 11:30",
           title: "Registration",
-          venue: "IT204",
+          venue: "Hall of Fame",
           remark: "Registration is closed at 11:30",
         },
         {
