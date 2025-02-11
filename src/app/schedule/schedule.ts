@@ -47,7 +47,7 @@ export interface ScheduleSession {
       date: "Wed, Feb 12, 2025",
       sessions: [
         {
-          time: "10:00 - 11:30",
+          time: "10:30 - 11:30",
           title: "Registration",
           venue: "Hall of Fame",
           remark: "Registration is closed at 11:30",
