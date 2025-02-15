@@ -19,6 +19,9 @@ export default function Home() {
         <AppIcon name="Rules" href="/contest" icon={<span>🖥️</span>} />
         <AppIcon name="Teams" href="/teams" icon={<span>🧑‍🧑‍🧒</span>} />
         <AppIcon name="Score" href="/scoreboard" icon={<span>📊</span>} />
+        <AppIcon name="Practice" href="https://www.hackerrank.com/ictpc25-practice-session" icon={<span>🎫</span>} />
+        <AppIcon name="Competition" href="https://www.hackerrank.com/ictpc25-competition-session" icon={<span>🏆</span>} />
+        <AppIcon name="Photos" href="https://drive.google.com/drive/folders/1C9gwYnUaoF5A39b5vuiOSsVVySw14z-l?usp=sharing" icon={<span>🌼</span>} />
         <AppIcon name="Schedule" href="/schedule" icon={<span>🗓️</span>} />
         <AppIcon
           name="OpenChat"
