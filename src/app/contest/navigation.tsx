@@ -105,16 +105,16 @@ export default function Page() {
           <b>B.Sc. in ICT or B.Sc. in DST</b>
           programs. <br />
           <br />
-          Teams that do not meet this requirement will be disqualified from
-          ranking, ineligible for rewards, and will forfeit the right to advance
-          in the competition. However, such teams may still participate with
-          prior approval from the competition organizers.
+          Teams that do not meet this requirement will be <b>disqualified from
+          ranking, ineligible for rewards</b>, and will <b>forfeit the right to advance</b>
+          {" "} in the competition. However, such teams may still participate <b>with
+          prior approval</b> from the competition organizers.
         </EachTab>
         <EachTab value={values[1]} title={"Competition Guidelines"}>
           The competition involves writing programs to solve a set of problems,
           with <b>all problem statements provided in English</b>. Participants
           can write their solutions using any of the following programming
-          languages: <b>C, C++, C#, Python, Kotlin, JavaScript, or Java</b>.
+          languages: <b>C, C++, Python, or Java</b>.
           <br />
           <br /> The competition will last<b> 5 hours</b>, during which each
           team can solve the problems in any order. Teams may choose to use any
@@ -138,7 +138,7 @@ export default function Page() {
     
 *   The material must be contained in a **notebook, binder, envelope, or folder** labeled with the institution and team name on the front.
     
-*   All materials must be submitted before the **competition session on February 12th**, starting from **1PM** at the provided place.
+*   All materials must be submitted before the **competition session on February 12th**, starting from **11AM** at the provided place.
     
 
 2.  **Allowed Stationery and Items**:
@@ -148,11 +148,11 @@ export default function Page() {
     
 *   There will be only pens provided for each team on request.
     
-*   Candy is the only food allowed. **No drinks** are permitted (provided on request).
+*   Candy is the only food allowed. **Still drinks** are the only drinks permitted.
     
-*   There will be snacks and drinks provided once during the contest.
+*   There will be snacks and drinks provided after the contest.
     
-*   Teams are allowed to bring **mascot dolls, Yadom (inhalers), or one English-to-\[Language\] dictionary**. However, all items, including notebooks, stationery, candy, mascot dolls, etc., will be **inspected before the competition session and placed in the team’s designated workstation** before the competition.
+*   Teams are allowed to bring **mascot dolls, Yadom (inhalers), Calculator (teams may use OS built-in calculator), or one English-to-\[Language\] dictionary**. However, all items, including notebooks, stationery, candy, mascot dolls, etc., will be **inspected before the competition session and placed in the team’s designated workstation** before the competition.
     
 
 3.  **Prohibited Items**:
@@ -186,7 +186,8 @@ export default function Page() {
 7.  **Competition Day Rules (Feb 12)**:
     
 
-*   Only **empty-handed entry** into the competition room is allowed.`}</ReactMarkdown>
+*   Only **empty-handed entry** into the competition room is allowed.
+*   Teams must participate in the competition at least 3 hours to be recognized as participation.`}</ReactMarkdown>
         </EachTab>
         <EachTab value={values[2]} title={"During Competition"}>
           <ReactMarkdown
@@ -290,7 +291,7 @@ export default function Page() {
     
 *   **RAM**: 16 GB
     
-*   **OS**: Ubuntu 24.04.1 LTS
+*   **OS**: Windows 10
     
 
 **Note**:
@@ -305,19 +306,24 @@ export default function Page() {
             {`**Languages**
 
 *   **Java (OpenJDK 17.0.10)**
+
+    javac <filename>.java
+
+*   **C (gcc 9.4.0)**
     
-*   **C (gcc 11.4.0)**
-    
-*   **C#**
-    
+    gcc <filename>.c -o main 
+
+    ./main
+
 *   **C++ (g++ 11.4.0)**
-    
-*   **Kotlin (Version 1.9)**
-    
+
+    g++ <filename>.cpp -lstdc++
+
+    ./a
+
 *   **Python (pypy3 7.3.9)**
     
-*   **JavaScript**
-    
+    python <filename>.py
 
 **Editors and IDEs**
 

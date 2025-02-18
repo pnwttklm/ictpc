@@ -19,7 +19,10 @@ export default function Home() {
         <AppIcon name="About" href="/about" icon={<span>ℹ️</span>} />
         <AppIcon name="Rules" href="/contest" icon={<span>🖥️</span>} />
         <AppIcon name="Teams" href="/teams" icon={<span>🧑‍🧑‍🧒</span>} />
-        {/* <AppIcon name="Score" href="/leaderboard" icon={<span>📊</span>} /> */}
+        <AppIcon name="Score" href="/scoreboard" icon={<span>📊</span>} />
+        <AppIcon name="Practice" href="https://www.hackerrank.com/ictpc25-practice-session" icon={<span>🎫</span>} />
+        <AppIcon name="Competition" href="https://www.hackerrank.com/ictpc25-competition-session" icon={<span>🏆</span>} />
+        <AppIcon name="Photos" href="https://drive.google.com/drive/folders/1C9gwYnUaoF5A39b5vuiOSsVVySw14z-l?usp=sharing" icon={<span>🌼</span>} />
         <AppIcon name="Schedule" href="/schedule" icon={<span>🗓️</span>} />
         <AppIcon
           name="OpenChat"
@@ -56,7 +59,7 @@ export default function Home() {
           <p className="font-bold">Register Date:</p> Today - Jan 31
         </h2> */}
         <h2 className="text-md flex flex-row gap-3">
-          See you in the next event!
+          max of 3 per team | Feb 7 and 12
         </h2>
         {/* <h2 className="text-md flex flex-row gap-3">
           <p className="font-bold">Competition Session:</p> Sat Feb 15 13:00

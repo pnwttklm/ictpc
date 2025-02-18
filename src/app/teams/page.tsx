@@ -2,7 +2,7 @@ import Search from "@/components/Search";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ICTPC | 44 Teams",
+  title: "ICTPC | 47 Teams",
   description: "Search for teams",
 };
 
@@ -44,10 +44,6 @@ const data = [
     id: [6788230, 6788233, 6788177],
   },
   {
-    team: "I HATE MATH",
-    id: [6588204, 6588005, 6588094],
-  },
-  {
     team: "JET",
     id: [6687064, 6687011, 6687082],
   },
@@ -84,10 +80,6 @@ const data = [
     id: [6688076, 6688143, 6688137],
   },
   {
-    team: "Ngo",
-    id: [6788017, 6788128],
-  },
-  {
     team: "Numhin or HinNum",
     id: [6788227, 6788038, 6788142],
   },
@@ -98,7 +90,6 @@ const data = [
   {
     team: "PlaKud",
     id: [6788087, 6788072],
-    warning: true,
   },
   {
     team: "PM 2.5",
@@ -158,7 +149,7 @@ const data = [
   },
   {
     team: "กก-ก๊ก-กก-ก๊ก",
-    id: [6788211, 6788132],
+    id: [6788211, 6788132, 6788026],
   },
   {
     team: "ขอสองคะแนนค่ะ",
@@ -167,10 +158,6 @@ const data = [
   {
     team: "ขาดผมไปแล้วใครจะไถนา",
     id: [6688142, 6688065, 6688040],
-  },
-  {
-    team: "ข้าน้อยแซ่หวัง",
-    id: [6687089, 6687007],
   },
   {
     team: "ช่วยด้วยผมมีคนเดียว",
@@ -217,7 +204,7 @@ const data = [
 export default function Home() {
   return (
     <main className="flex flex-col items-center bg-gray-100 min-h-screen p-4">
-      <h1 className="text-2xl font-bold mb-6">44 Teams</h1>
+      <h1 className="text-2xl font-bold mb-6">47 Teams</h1>
       <Search data={data} />
     </main>
   );
