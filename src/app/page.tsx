@@ -11,7 +11,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#19B3C5] via-[#070419] to-[#070419] flex flex-col items-center text-white relative">
+    <div className="bg-[url('/final.jpg')] bg-cover bg-center min-h-screen flex flex-col items-center text-white relative">
+      <div className="w-full h-full bg-black bg-opacity-50 min-h-screen flex flex-col items-center text-white relative">
       {/* App Icons */}
       <main className="flex flex-wrap justify-center items-center max-w-5xl">
         {/* <AppIcon name="Register" href="/regis" icon={<span>📝</span>} /> */}
@@ -55,12 +56,13 @@ export default function Home() {
           <p className="font-bold">Register Date:</p> Today - Jan 31
         </h2> */}
         <h2 className="text-md flex flex-row gap-3">
-          max of 3 per team | Feb 9 and 12
+          See you in the next event!
         </h2>
         {/* <h2 className="text-md flex flex-row gap-3">
           <p className="font-bold">Competition Session:</p> Sat Feb 15 13:00
           IT210
         </h2> */}
+      </div>
       </div>
     </div>
   );
